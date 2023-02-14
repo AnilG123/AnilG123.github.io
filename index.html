@@ -1,7 +1,26 @@
 <section id="resume-details">
   <h2>Resume Details</h2>
-  <img src="https://github.com/<AnilG123>/<AnilG123.github.io>/raw/<main>/<anil passphoto>.jpg" alt="Your Name">
+  <div class="resume-columns">
+    <div class="left-column">
+  <img src="https://github.com/<AnilG123>/<repository_AnilG123.github.io>/raw/<branch_main>/<image_anil passphoto>.jpg" alt="Your Name">
+    </div>
+    .resume-columns {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .left-column {
+      flex: 1;
+      padding: 0 20px 0 0;
+    }
+    
+    .right-column {
+      flex: 1;
+      padding: 0 0 0 20px;
+    }
+    <div class="right-column"></div>
   <ul>
+
     <li><strong>Education:</strong> Completed Bachelor Degree in the year of 2020</li>
 
     <li><strong>Experience:</strong> Working as a salesforce Develper </li>
@@ -14,5 +33,7 @@
 
     <li><strong>Certifications:</strong>salesforce certified Administration</li>
   </ul>
+</div>
+</div>
 </section>
 
