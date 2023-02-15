@@ -1,6 +1,7 @@
 .resume-columns {
     display: flex;
     flex-wrap: wrap;
+    background-color: aqua;
   }
   
   .left-column {
